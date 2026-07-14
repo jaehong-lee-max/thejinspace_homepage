@@ -3431,3 +3431,7 @@ button.news_write_button {
 header .header_inner ul li button {
   color: white;
 }
+.news_empty {
+  text-align: center;
+  margin-top: 100px;
+}
