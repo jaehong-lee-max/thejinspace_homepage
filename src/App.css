@@ -3240,6 +3240,9 @@ header .header_inner .mobile_menu_wrap {
   .mobile_vision_section h2 {
     font-size: 37px;
   }
+  .about_icon {
+    display: none;
+  }
 }
 
 @media (max-width: 420px) {
