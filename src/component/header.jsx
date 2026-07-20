@@ -141,6 +141,11 @@ function Header() {
             <li className={location.pathname === "/road_map" ? "active" : ""}>
               <Link to="/road_map">ROADMAP</Link>
             </li>
+            <li
+              className={location.pathname === "/web_platform" ? "active" : ""}
+            >
+              <Link to="/web_platform">WEB SERVICE</Link>
+            </li>
 
             <li className={location.pathname === "/news" ? "active" : ""}>
               <Link to="/news">NEWS</Link>
@@ -208,7 +213,11 @@ function Header() {
                 ROADMAP
               </Link>
             </li>
-
+            <li
+              className={location.pathname === "/web_platform" ? "active" : ""}
+            >
+              <Link to="/web_platform">WEB SERVICE</Link>
+            </li>
             <li className={location.pathname === "/news" ? "active" : ""}>
               <Link to="/news" onClick={closeMobileMenu}>
                 NEWS

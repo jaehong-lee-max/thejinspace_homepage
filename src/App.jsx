@@ -12,6 +12,7 @@ import Contact from "./pages/contact";
 import NewsDetail from "./pages/newsDetail";
 import Login from "./pages/login";
 import Write from "./pages/write";
+import WebService from "./pages/webService";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/road_map" element={<RoadMap />} />
         <Route path="/platform" element={<Platform />} />
+        <Route path="/web_platform" element={<WebService />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/news_detail" element={<NewsDetail />} />

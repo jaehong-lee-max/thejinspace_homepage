@@ -3438,3 +3438,51 @@ header .header_inner ul li button {
   text-align: center;
   margin-top: 100px;
 }
+
+.web_service_wrap {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  line-height: 24px;
+}
+.web_service_wrap h4 {
+  text-align: center;
+  display: block;
+  height: auto;
+  line-height: 60px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding-top: 240px;
+  padding-right: 0px;
+}
+.web_service_wrap .kokkokkok {
+  width: 290px;
+  height: 174px;
+  background: url("./assets/kok4.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0px auto;
+  margin-top: 70px;
+  padding-left: 40px;
+}
+.web_service_wrap a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: White;
+  color: black;
+  line-height: 40px;
+  margin: 0px auto;
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.web_service_wrap a:hover {
+  background: red;
+  color: white;
+}
